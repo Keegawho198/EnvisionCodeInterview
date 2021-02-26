@@ -14,8 +14,9 @@ const router = express.Router();
 // const dbRoute =
 //   'mongodb://<your-db-username-here>:<your-db-password-here>@ds249583.mlab.com:49583/fullstack_app';
 
-  const uri = "mongodb+srv:envision-user:utDqZf9yWIFW87Ej@envision-cluster.pgpms.mongodb.net/envision-db?retryWrites=true&w=majority";
+  const uri = "mongodb+srv://envision-user:utDqZf9yWIFW87Ej@envision-cluster.pgpms.mongodb.net/envision-db?retryWrites=true&w=majority";
 
+  //mongodb+srv://envision-user:utDqZf9yWIFW87Ej@envision-cluster.pgpms.mongodb.net/envision-db?retryWrites=true&w=majority
 
 // connects our back end code with the database
 mongoose.connect(uri, { useNewUrlParser: true });
